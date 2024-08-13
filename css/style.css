@@ -1,7 +1,7 @@
 
 :root{
   --color-acento: #ee6130;
-  --color-acento-claro: #ee613033;
+  --color-acento-claro: #d1552cc5;
   --color-texto: black;
 }
 
@@ -96,7 +96,7 @@ footer a{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1A2130;
+  background:var(--color-acento-claro);
 }
 
 
@@ -107,7 +107,7 @@ footer a{
 
 /* Buttons */
 .boton-submit, .logout-btn {
-  background-color: #365aa7;
+  background-color: var(--color-acento);
   color: black;
   border: none;
   padding: 10px;
@@ -118,7 +118,7 @@ footer a{
 }
 
 .boton-submit:hover {
-  background-color: #03398a;
+  background-color: #f7531d;
   color:#000000;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
   translate: 0px 1px;
